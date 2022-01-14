@@ -1,0 +1,96 @@
+/* Gfonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@200;400;500&display=swap');
+body{
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+/* navbar style */
+nav{
+    background-color: blueviolet;
+    line-height: 60px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.profile a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 40px;
+    height: 50px;
+}
+.logo h2{
+    color: white;
+    margin-left: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 84%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+/* top instructors */
+.top-instructors, .top-blogs, .latest-courses{
+   margin: 2% 4% 2% 4%;
+}
+.instructors{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+.instructor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructor img{
+    width: 50px;
+    height: 50px;
+    margin: 0 12px 0 12px;
+}
+hr{
+    width: 90%;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.blog{
+    display: flex;
+}
+.blog img{
+width: 245px;
+margin-right: 20px;
+}
+
+/* latest course */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.course img{
+    width: 245px;
+}
